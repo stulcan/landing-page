@@ -60,6 +60,9 @@ a {
 
 .first-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
 
 .logo {
@@ -91,11 +94,6 @@ a {
 .signature {
     display: flex;
     justify-content: flex-end;
-}
-
-.images-second {
-    display:flex;
-    align-items: center;
 }
 
 button {
@@ -135,4 +133,24 @@ button {
 
 .first {
     padding: 0 200px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #f9faf8;
+    margin: 75px;
+    padding: 50px 100px;
+}
+
+.image-subtext {
+    text-align: center;
+}
+
+.images-second {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
