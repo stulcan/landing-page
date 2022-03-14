@@ -88,12 +88,15 @@ a {
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
     color: #1f2937;
 }
 
 .signature {
     display: flex;
     justify-content: flex-end;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 button {
