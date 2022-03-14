@@ -82,7 +82,7 @@ a {
 
 .third {
     background-color: #e5e7eb;
-    padding: 0 200px;
+    padding: 50px 200px;
 }
 
 .quote {
@@ -107,12 +107,12 @@ button {
 .fourth {
     color: #f9faf8;
     background-color: #3882f6;
-    margin: 0 200px;
+    margin: 50px 200px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 50px;
+    padding: 50px 75px;
 }
 
 .fourth-button {
@@ -153,4 +153,10 @@ button {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    margin: 25px;
+}
+
+img {
+    border-radius: 10px;
+    width: 400px;
 }
