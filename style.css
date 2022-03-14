@@ -56,6 +56,8 @@ a {
     justify-content: center;
     color: #e5e7eb;
     align-items: center;
+    position: relative;
+    bottom: 0;
 }
 
 .first-container {
